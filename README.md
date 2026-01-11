@@ -1,5 +1,5 @@
 # Azure Databricks End-to-End Retail Data Warehouse Project
-This project demonstrates a real-world, production-ready data warehouse built on Azure Databricks using the Medallion Architecture. Unlike a "hobby project", this implementation includes administrative tasks, security configurations, and advanced data engineering patterns like Slowly Changing Dimensions (SCD) and Delta Live Tables (DLT).
+This project demonstrates a real-world, production-ready data warehouse built on Azure Databricks using the Medallion Architecture. This implementation includes administrative tasks, security configurations, and advanced data engineering patterns like Slowly Changing Dimensions (SCD) and Delta Live Tables (DLT).
 
 --------------------------------------------------------------------------------
 ### Project Architecture
@@ -87,3 +87,4 @@ The project follows the industry-standard Medallion Architecture, progressing th
 5. Import Notebooks: Import the PySpark and DLT notebooks into your Databricks workspace.
 
 6. Execute Workflow: Run the "End-to-End" workflow to populate the Medallion layers.
+
